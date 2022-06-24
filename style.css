@@ -15,12 +15,12 @@ header {
     z-index: 10;
 }
 
-header.abajo{
+header.abajo {
     background: #333;
     padding: 15px 20px;
 }
 
-header .logo{
+header .logo {
     position: relative;
     color: #fff;
     font-weight: bold;
@@ -44,15 +44,15 @@ header ul {
 }
 
 .ul__li-a {
-    list-style: none;    
+    list-style: none;
 }
 
-.ul__li-a{
+.ul__li-a {
     position: relative;
     font-family: Arial, Helvetica;
-    margin:  0 15px;
+    margin: 0 15px;
     text-decoration: none;
-    color: #fff ;
+    color: #fff;
     letter-spacing: 2px;
     font-weight: 600;
     transition: .7s;
@@ -69,7 +69,7 @@ header ul {
 }
 
 header.abajo .logo,
-header.abajo ul li a{
+header.abajo ul li a {
     color: #fff;
 }
 
@@ -79,10 +79,11 @@ header.abajo ul li a{
     margin-top: 80px;
     display: flex;
     justify-content: center;
-    color: red;
+    color: rgb(116, 116, 116);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
 }
+
 .text-center__p {
     margin-top: 10px;
     display: flex;
@@ -90,6 +91,7 @@ header.abajo ul li a{
     color: #000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    padding: 1rem;
 }
 
 .zonas {
@@ -100,28 +102,25 @@ header.abajo ul li a{
 }
 
 .zonas-gym {
-    margin-top: 20px;
+    padding-top: 20px;
     width: 300px;
     height: 450px;
-    border: 2px solid red;
+    text-align: center;
+}
+
+.zonas-gym:hover {
+    outline: 2px solid rgb(116, 116, 116);
+}
+
+.zonas-gym__img {
+    padding-bottom: 20px;
 }
 
 .zonas-gym__p {
-    margin-top: 200px;
-    color: aqua;
+    padding-top: 20px;
+    color: rgb(65, 64, 20);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
-    margin: 200px 5px 0px 15px;
-}
-
- .zonas-gym__img {
-     position: absolute;
-     margin: 30px 80px 40px 90px;
-}
-
-div h2 {
-    position: absolute;
-    margin: 160px 5px 5px 93px;
 }
 
 /* planes de entreno */
@@ -130,11 +129,12 @@ div h2 {
     margin-top: 120px;
     display: flex;
     justify-content: center;
-    color: red;
+    color: rgb(97, 30, 30);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     padding-top: 2em;
 }
+
 .text-planes__p {
     margin-top: 10px;
     display: flex;
@@ -159,14 +159,14 @@ div h2 {
     margin: 30px 30px;
     width: 300px;
     height: 550px;
-    border: 2px solid red;
+    border: 2px solid rgb(97, 30, 30);
     border-radius: 50px;
     align-items: center;
     transition: all .7s;
 }
 
-.planes-gym:hover { 
-    background-color: aqua;
+.planes-gym:hover {
+    background-color: #FFE69A;
 }
 
 .planes-gym__p {
@@ -180,18 +180,18 @@ div h2 {
     margin: 30px 30px;
     width: 300px;
     height: 550px;
-    border: 2px solid red;
+    border: 2px solid rgb(97, 30, 30);
     border-radius: 50px;
     align-items: center;
     transition: all .7s;
 }
 
 .planes-gym__active:hover {
-    background-color: aqua;
+    background-color: #FFD24C;
 }
 
 .planes-gym__h3 {
-    text-align:center;
+    text-align: center;
     font-size: 2.3em;
     margin-right: 5px;
 }
@@ -205,7 +205,7 @@ div h2 {
 .planes li {
     margin-top: 30px;
     text-align: center;
-    list-style: none;  
+    list-style: none;
 }
 
 hr {
@@ -219,7 +219,8 @@ hr {
     padding: 50px 50px;
     background-color: #000;
 }
-.flex-container{
+
+.flex-container {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -257,6 +258,7 @@ hr {
     min-height: 140px;
     resize: none;
 }
+
 .from-img {
     flex: 1;
     padding: 10px;
@@ -275,7 +277,7 @@ hr {
     background-color: #094;
     border-radius: 10%;
     text-align: center;
-    padding: 10px ;
+    padding: 10px;
 }
 
 .from-img img {
@@ -290,7 +292,8 @@ hr {
 .from input[type="submit"] {
     background-color: #094;
     border-bottom: none;
-    padding: 12px;
+    padding: 5px;
+    width: 50%;
 }
 
 .from input[type="submit"]:hover {
@@ -313,15 +316,12 @@ hr {
     display: flex;
     flex-wrap: wrap;
     height: 400px;
-    width: 700px;
-    background-color: yellow;
 }
 
 .footer__div {
     margin: 15px 0px 15px 15px;
     height: 370px;
     width: 340px;
-    background-color: rgb(223, 21, 21);
 }
 
 h4 {
@@ -338,7 +338,6 @@ h4 {
 .redes-sociales {
     height: 50px;
     width: 340px;
-    background: rgb(0, 218, 29);
     margin-bottom: 15px;
 }
 
@@ -352,11 +351,8 @@ h4 {
 /* FOOTER-2 */
 
 .footer__div--2 {
-    width: 335px;
+    width: 40%;
     height: 370px;
-    background-color: #050;
-    margin: 15px 0px 15px 0px;
-    position: relative;
 }
 
 .footer__p--2 {
